@@ -25,6 +25,7 @@
     grid-template-columns: repeat(3, 300px);
     gap: 30px;
     margin-top: 10px;
+    justify-content: center;
 }
 
 /* Adjust grid layout for tablet */
