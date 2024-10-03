@@ -31,14 +31,16 @@
 /* Adjust grid layout for tablet */
 @media (max-width: 1024px) {
     .grid-container {
-        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+        grid-template-columns: repeat(3, 1fr); /* 2 columns for tablets */
+        gap: 10px;
     }
+    
 }
 
 @media (max-width: 768px) {
     .grid-container {
-        grid-template-columns: 1fr; /* 1 column for smaller devices */
-        gap: 20px;
+        grid-template-columns: 2fr; /* 1 column for smaller devices */
+        gap: 10px;
     }
 }
 
