@@ -21,8 +21,6 @@ css_path = os.path.join(os.getcwd(), 'static','app.css')
 # Load the CSS file
 with open(css_path) as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
-# Custom title for Esep-PRO
-st.markdown("<h1 class='custom-title'>Esep-PRO</h1>", unsafe_allow_html=True)
 
 # HTML code to create the grid layout with base64 encoded images
 html_code = f"""
