@@ -32,6 +32,7 @@
 @media (max-width: 1024px) {
     .grid-container {
         grid-template-columns: repeat(3, 1fr); /* 2 columns for tablets */
+        margin-top: 0px;
         gap: 10px;
     }
     
@@ -41,6 +42,7 @@
     .grid-container {
         grid-template-columns: repeat(2,1fr); /* 1 column for smaller devices */
         gap: 10px;
+        margin-top: 0px;
     }
 }
 
