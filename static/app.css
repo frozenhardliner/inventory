@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+.custom-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    font-style: normal;
+    line-height: 31.47px;
+    color: #969696;
+    margin-left: -180px; /* Move the title slightly to the left */
+}
+/* Divider styling */
+.divider {
+    border: 1px solid #EAEAEA;
+    width: 1050px;
+    margin-left: -180px; /* Align with title */
+    height: 0px;
+    left: calc(50% - 1140px/2);
+    top: 84px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 340px);
+    gap: 30px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.grid-item {
+    background-color: #FFFFFF;
+    width: 340px;
+    height: 258px;
+    border-radius: 20px;
+    box-shadow: 0px 3.42424px 14.9811px rgba(233, 233, 233, 0.25);
+    text-align: center;
+    transition: 0.3s;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item:hover {
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31.47px;
+    text-align: center;
+    color: #000000;
+}
+/* Remove underline and blue color from links */
+a {
+    text-decoration: none; /* Removes the underline */
+    color: inherit; /* Inherits the color of the parent element */
+}
+
+a:hover {
+    text-decoration: none; /* Ensures no underline on hover */
+    color: inherit; /* Keeps the color on hover */
+}
