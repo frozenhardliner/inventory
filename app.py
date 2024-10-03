@@ -10,6 +10,12 @@ footer {visibility: hidden;}
 
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
+reduce_header_height_style = """
+    <style>
+        div.block-container {padding-top:1rem;}
+    </style>
+"""
+st.markdown(reduce_header_height_style, unsafe_allow_html=True)
 # Helper function to load images as base64
 def get_image_as_base64(image_path):
     with open(image_path, "rb") as img_file:
