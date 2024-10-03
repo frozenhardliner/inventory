@@ -19,6 +19,7 @@
     top: 84px;
 }
 .grid-container {
+    position: auto;
     display: grid;
     grid-template-columns: repeat(3, 340px);
     gap: 30px;
