@@ -3,12 +3,13 @@ from streamlit.components.v1 import html
 import base64
 import os
 hide_streamlit_style = """
-
+<style>
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
+</style>
 
 """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 # Helper function to load images as base64
 def get_image_as_base64(image_path):
     with open(image_path, "rb") as img_file:
