@@ -5,7 +5,7 @@
     font-weight: 700;
     font-size: 26px;
     font-style: normal;
-    line-height: 31.47px;
+    line-height: 10.47px;
     color: #969696;
     margin-left: 0; /* Adjust margin for responsiveness */
     text-align: center; /* Center title on smaller screens */
@@ -25,7 +25,7 @@
     grid-template-columns: repeat(3, 300px);
     gap: 30px;
     justify-content: center;
-    margin-top: 0px;
+    margin-top: 30px;
 }
 
 /* Adjust grid layout for tablet */
