@@ -22,7 +22,7 @@
 .grid-container {
     position: relative;
     display: grid;
-    grid-template-columns: repeat(3, 340px);
+    grid-template-columns: repeat(3, 300px);
     gap: 30px;
     justify-content: center;
     margin-top: 40px;
@@ -31,7 +31,7 @@
 /* Adjust grid layout for tablet */
 @media (max-width: 1024px) {
     .grid-container {
-        grid-template-columns: repeat(3, 1fr,280px); /* 2 columns for tablets */
+        grid-template-columns: repeat(3, 1fr); /* 2 columns for tablets */
         gap: 10px;
     }
     
@@ -39,7 +39,7 @@
 
 @media (max-width: 768px) {
     .grid-container {
-        grid-template-columns: repeat(2,1fr,280px); /* 1 column for smaller devices */
+        grid-template-columns: repeat(2,1fr); /* 1 column for smaller devices */
         gap: 10px;
     }
 }
