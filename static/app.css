@@ -8,10 +8,11 @@ body, .main {
 
 /* Reduce the padding at the top of the main content */
 .main .block-container {
-    padding-top: 0px !important; /* Remove padding */
-    margin-top: 0px !important;  /* Remove any margin */
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
-
 /* Reduce any padding/margin added by Streamlit's main content */
 section.main {
     padding: 0px !important;
