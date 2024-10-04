@@ -35,10 +35,6 @@
         margin-top: 0px;
         gap: 10px;
     }
-    .grid-item {
-        max-width: 250px; /* Reduce max-width of containers */
-        height: 220px; /* Reduce height of containers */
-    }
 }
 
 @media (max-width: 768px) {
@@ -46,17 +42,13 @@
         grid-template-columns: repeat(2,1fr); /* 1 column for smaller devices */
         gap: 10px;
         margin-top: 0px;
-    .grid-item {
-        max-width: 220px; /* Further reduce max-width for smaller devices */
-        height: 200px; /* Further reduce height for smaller devices */
-    }
 }
 
 .grid-item {
     background-color: #FFFFFF;
     width: 100%;
     max-width: 340px;
-    height: 258px;
+    height: 200px;
     border-radius: 20px;
     box-shadow: 0px 3.42424px 14.9811px rgba(233, 233, 233, 0.25);
     text-align: center;
