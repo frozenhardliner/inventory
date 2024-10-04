@@ -2,14 +2,26 @@ import streamlit as st
 from streamlit.components.v1 import html
 import base64
 import os
-hide_streamlit_style = """
-<style>
-#MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
-</style>
+# hide_streamlit_style = """
+# <style>
+# #MainMenu {visibility: hidden;}
+# footer {visibility: hidden;}
+# </style>
 
-"""
-st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
+# """
+# st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
+hide_streamlit_style = """
+            <style>
+                /* Hide the Streamlit header and menu */
+                header {visibility: hidden;}
+                /* Optionally, hide the footer */
+                .streamlit-footer {display: none;}
+                /* Hide your specific div class, replace class name with the one you identified */
+                .st-emotion-cache-uf99v8 {display: none;}
+            </style>
+            """
+
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 reduce_header_height_style = """
     <style>
         div.block-container {padding-top:1rem;}
