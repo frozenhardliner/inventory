@@ -1,40 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
-body {
+
+/* Ensure no padding and margin is applied to the body */
+body, .main {
     padding: 0px !important;
     margin: 0px !important;
 }
 
+/* Reduce the padding at the top of the main content */
 .main .block-container {
-    padding-top: 0px; /* Reduce any padding applied to the main container */
-    margin-top: 0px;  /* Ensure no additional margin is applied */
+    padding-top: 0px !important; /* Remove padding */
+    margin-top: 0px !important;  /* Remove any margin */
 }
 
-.custom-title {
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    font-style: normal;
-    line-height: 10.47px;
-    color: #969696;
-    margin-left: 0; /* Adjust margin for responsiveness */
-    text-align: center; /* Center title on smaller screens */
+/* Reduce any padding/margin added by Streamlit's main content */
+section.main {
+    padding: 0px !important;
+    margin: 0px !important;
 }
 
-/* Divider styling */
-.divider {
-    border: 1px solid #EAEAEA;
-    width: 100%; /* Full width on smaller screens */
-    margin-left: 0; /* Remove left margin */
+/* Forcefully remove extra space */
+html, body {
+    margin: 0px !important;
+    padding: 0px !important;
+    overflow-x: hidden; /* Remove horizontal overflow */
 }
 
-/* Grid container */
+/* The grid container */
 .grid-container {
     position: relative;
     display: grid;
     grid-template-columns: repeat(3, 280px);
     gap: 30px;
-    margin-top: 0px;
+    margin-top: 0px !important;  /* Ensure no margin is pushing it down */
     justify-content: center;
+    padding-top: 0px !important;
 }
 
 /* Adjust grid layout for tablet */
