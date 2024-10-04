@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 body {
-    padding-top: 0px !important;
-    margin-top: 0px !important;
+    padding: 0px !important;
+    margin: 0px !important;
 }
 
 .main .block-container {
-    padding-top: 10px; /* Adjust this value as needed */
+    padding-top: 0px; /* Reduce any padding applied to the main container */
+    margin-top: 0px;  /* Ensure no additional margin is applied */
 }
 
-.grid-container {
-    margin-top: 0px; /* Set margin-top to 0 or adjust to your needs */
-}
 .custom-title {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
@@ -35,7 +33,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 280px);
     gap: 30px;
-    margin-top: 10px;
+    margin-top: 0px;
     justify-content: center;
 }
 
@@ -71,6 +69,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0px;
 }
 
 .grid-item:hover {
