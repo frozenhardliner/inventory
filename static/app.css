@@ -42,13 +42,14 @@
         grid-template-columns: repeat(2,1fr); /* 1 column for smaller devices */
         gap: 10px;
         margin-top: 0px;
+    }
 }
 
 .grid-item {
     background-color: #FFFFFF;
     width: 100%;
     max-width: 340px;
-    height: 258px;
+    height: 200px;
     border-radius: 20px;
     box-shadow: 0px 3.42424px 14.9811px rgba(233, 233, 233, 0.25);
     text-align: center;
