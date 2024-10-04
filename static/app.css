@@ -69,6 +69,8 @@ html, body {
     justify-content: center;
     align-items: center;
     padding: 0px;
+    padding: 0px !important;  /* Remove any padding from grid items */
+    margin: 0px !important;    /* Remove any margins from grid items */
 }
 
 .grid-item:hover {
