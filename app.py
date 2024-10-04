@@ -10,7 +10,6 @@ import os
 
 # """
 # st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
-st.write("Hello")
 hide_streamlit_style = """
             <style>
                 /* Hide the Streamlit header and menu */
